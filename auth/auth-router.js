@@ -34,5 +34,4 @@ router.post('/login', (req, res) => {
     .catch(err => res.status(500).json({message: 'unable to log in user?'}))
 });
 
-
 module.exports = router;
